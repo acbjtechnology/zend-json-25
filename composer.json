@@ -38,5 +38,24 @@
         "psr-4": {
             "ZendTest\\Json\\": "test/"
         }
-    }
+    },
+    "repositories" : [
+        {
+            "type":"package",
+            "package": {
+                "name": "acbjtechnology/zend-stdlib-25",
+                "version":"dev-main",
+                "source": {
+                    "url": "https://github.com/acbjtechnology/zend-stdlib-25.git",
+                    "type": "git",
+                    "reference":"main"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Zend\\Stdlib\\": "src/"
+                    }
+                }
+            }
+        }
+    ]
 }
